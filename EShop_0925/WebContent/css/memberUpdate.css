@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+#main{
+	height: 750px; /*必须设置高度-下面用了float属性*/
+	padding-top:10px;
+}
+#main .memberUpdateInfo_left{
+	width: 260px;
+	float: left;
+}
+.memberUpdateInfo_left .leftDiv_top{
+	border: 1px solid black;
+	height: 200px;
+}
+.memberUpdateInfo_left .leftDiv_bottom{
+	border: 1px solid black;
+	height: 350px;
+	margin-top: 10px;
+}
+.memberUpdateInfo_left .Div_img{
+	background: url("../images/icon06.gif");
+	height: 30px;
+	background-repeat: no-repeat;
+	color: white;
+	padding-top: 10px;
+	padding-left:50px;
+}
+.memberUpdateInfo_left .leftDiv_top .but_top{
+	background: url("../images/button.gif");
+	width: 73px;
+	height: 23px;
+	border: none;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+.memberUpdateInfo_left .leftDiv_top .but_bot{
+	background: url("../images/button2.gif");
+	width: 73px;
+	height: 23px;
+	border: none;
+}
+.memberUpdateInfo_left .leftDiv_bottom .ul_img{
+	margin-right: 10px;
+}
+.memberUpdateInfo_left .leftDiv_bottom ul li{
+	list-style: none;
+}
+#main .memberUpdateInfo_right{
+	margin-left: 20px;
+	float:left;
+	width: 700px;
+}
+#main .memberUpdateInfo_right .mark_up{
+	border: 1px solid black;
+	height: 30px;
+}
+.memberUpdateInfo_right .mark_up .img_more{
+	float: right;
+	margin-top: 7px;
+	margin-right: 7px;
+}
+.memberUpdateInfo_right .mark_down{
+	margin-top: 20px;
+}
+.memberUpdateInfo_right .mark_down .img_book{
+	border: 1px solid black;
+	width: 167px;
+	height: 170px;
+}
+.memberUpdateInfo_right .mark_down .img_book img{
+	width: 120px;
+	height: 130px;
+	margin:20px;
+}
+.memberUpdateInfo_right .mark_down .div_book{
+	width:  180px;
+	/* border: 1px solid black; */
+	margin-left: 20px;
+}
+.memberUpdateInfo_right .mark_down .div_book p{
+	text-align: center;
+	line-height: 5px;
+}
+.memberUpdateInfo_right .mark_down .div_book a{
+	text-decoration: none;
+}
+.memberUpdateInfo_right .mark_down .but_detail{
+	background: url("../images/icon_car.gif");
+	width:100px;
+	height: 30px;
+	border: none;
+	background-repeat: no-repeat;
+}
+.memberUpdateInfo_right .mark_down .but_buy{
+	background: url("../images/icon_buy.gif");
+	width:70px;
+	height:30px;
+	border: none;
+	background-repeat: no-repeat;
+}
+.memberUpdateInfo_right .div_detail{
+	float: left;
+	width: 230px;
+	/* border: 1px solid black; */
+}
+#main .memberUpdateInfo_right .all_up{
+	float: left;
+	margin-top: 10px;
+}

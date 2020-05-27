@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+#main .orderListInfo{
+	width: 98%;
+	margin: auto;
+}
+.orderListInfo img {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.orderListInfo table{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.orderListInfo table .leftTD{
+	text-align: right;
+	width: 40%;
+	padding-right: 10px; /*注意效果*/
+}
+.orderListInfo table .centerTD{
+	text-align:center;
+}
+.orderListInfo table .saveDiv{
+	background:url("../images/button2.gif");
+	width: 73px;
+	height: 23px;
+	border: none;
+	line-height: 20px;
+}
