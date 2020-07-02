@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+#main .merchandiseDetailInfo{
+	width: 98%;
+	margin: auto;
+}
+.merchandiseDetailInfo img {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.merchandiseDetailInfo .merchandiseDiv{
+	width: 100%;
+	height: 300px;
+}
+.merchandiseDetailInfo .merchandiseDiv .merImg{
+	float: left;
+	margin-left: 20px;
+}
+.merchandiseDetailInfo .merchandiseDiv p{
+	margin: 0px;
+}
+.merchandiseDetailInfo .merchandiseDiv .buyLogo{
+	display: block;/*显示方式：行级元素变为块元素*/
+	margin-top: 20px;
+	margin: auto;
+}

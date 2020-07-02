@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+#main .ordersItemInfo{
+	width: 98%;
+	margin: auto;
+}
+#main .ordersItemInfo img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#main .ordersItemInfo table{
+	width: 100%;
+	margin-bottom: 20px;
+}
+#main .ordersItemInfo table .leftTD{
+	text-align: right;
+	padding-right: 10px;
+}
+#main .ordersItemInfo table caption{
+	font-size: 25px;
+}
+#main .ordersItemInfo table .centerTD{
+	text-align: center;
+}
+#main .ordersItemInfo table a{
+	text-decoration: none;
+	color: blue;
+}
+#main .ordersItemInfo table a:HOVER{
+	color: red;
+	text-decoration: underline;
+}
